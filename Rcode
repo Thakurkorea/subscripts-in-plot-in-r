@@ -1,0 +1,6 @@
+par(mfrow = c(2,2))
+plot(t_or$year,track$Co2, type='l',xlab='Year',ylab=expression('Co' [2]*'(Millon ton)'))
+plot(t_or$year,track$PopG, type='l',xlab='Year',ylab='Population')
+plot(t_or$year,track$GDP, type='l',xlab='Year',ylab='GDP($)')
+plot(t_or$year,track$GTemp, type='l',xlab='Year',ylab=expression('Global temp.(0'^c*')'))
+#####let's cluster the data to visualize using SOM
